@@ -1,0 +1,26 @@
+.container{
+  display: flex;
+  flex-direction: row;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+}
+
+.info_cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 790px) {
+  .info_cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+  
+}

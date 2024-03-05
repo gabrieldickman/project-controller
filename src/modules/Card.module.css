@@ -1,0 +1,29 @@
+.card{
+  background-color: #FDFDFE;
+  width: 200px;
+  height: 80px;
+  border-radius: 10px;
+  box-shadow: #9d9d9d 0 0.1em 0.1em 0;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  gap: 1rem;
+  
+}
+
+.card_title,
+.card_valor{
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+.card_title{
+  font-size: 1rem;
+}
+
+.card_valor{
+  font-size: 2.0rem;
+}
