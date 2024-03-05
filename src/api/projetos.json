@@ -25,10 +25,10 @@
       ],
       "prazo": "01/01/24",
       "endereco": "endereço da obra",
-      "status" : "Iniciada"
+      "Status" : "Iniciada"
   },
   { "id": "2", 
-      "cliente": "GABRIELA DO AMARAL", 
+      "cliente": "Gabriela do Amaral", 
       "tipo de obra": "Residencial",
       "valor": 7800,
       "insumos": [
@@ -52,7 +52,7 @@
       ],
       "prazo": "01/02/24",
       "endereco": "endereço da obra",
-      "status" : "Concluída"
+      "Status" : "Concluída"
   },
   { "id": "3", 
       "cliente": "ALPHA TEC", 
@@ -79,10 +79,10 @@
       ],
       "prazo": "01/03/24",
       "endereco": "endereço da obra",
-      "status" : "Iniciada"
+      "Status" : "Iniciada"
   },
   { "id": "4", 
-      "cliente": "INDUSTRIA DE COSMÉTICOS", 
+      "cliente": "Indústria de Cosméticos", 
       "tipo de obra": "Industrial",
       "valor": 35000,
       "insumos": [
@@ -106,10 +106,10 @@
       ],
       "prazo": "01/04/24",
       "endereco": "endereço da obra",
-      "status" : "Iniciada"
+      "Status" : "Iniciada"
   },
   { "id": "5", 
-      "cliente": "LINHAS E ALGODÕES LTDA", 
+      "cliente": "Linhas e Algodões LTDA", 
       "tipo de obra": "Comercial",
       "valor": 6400,
       "insumos": [
@@ -133,7 +133,7 @@
       ],
       "prazo": "01/05/24",
       "endereco": "endereço da obra",
-      "status" : "Iniciada"
+      "Status" : "Iniciada"
   }
   ]
 }
