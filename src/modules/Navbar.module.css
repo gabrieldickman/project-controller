@@ -11,6 +11,7 @@
 @media screen and (max-width: 800px) {
   .navbar{
     width: calc( 20vw - 0.9rem);
+    height: auto;
   }
   
   .navbar_item{

@@ -36,12 +36,13 @@ export default function Dashboard(){
           <Grid className={styles.grid} 
             data={projetos}
           >
-            <Column field="tipo de obra" title="Projeto" width="40px" />
-            <Column field="cliente" title="Cliente" width="40px" />
-            <Column field="valor" title="Valor" width="40px" />
-            <Column field="status" title="status" width="40px" />
+            <Column className={styles.column} field="tipo de obra" title="Projeto" width="auto" />
+            <Column className={styles.column} field="cliente" title="Cliente" width="auto" />
+            <Column className={styles.column} field="valor" title="Valor do Projeto" width="auto" />
+            <Column className={styles.column} field="status" title="Status" width="auto" />
           </Grid>
       </div>
     </div>
   )
 }
+

@@ -1,0 +1,44 @@
+
+.container{
+  display: flex;
+  flex-direction: row;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+}
+
+.info_cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.grid{
+  background-color: #FEFEFE;
+  border-radius: 10px;
+  box-shadow: #9d9d9d 0 0.1em 0.1em 0;
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+  padding: 1rem;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.column{
+  border: 1px solid #000;
+  padding: 0.5rem;
+}
+
+@media screen and (max-width: 790px) {
+  .info_cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+  
+}

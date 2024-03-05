@@ -1,0 +1,212 @@
+{
+  "projetos": [
+    { "id": "1", 
+      "cliente": "Marcelo Almeida de Souza", 
+      "tipo de obra": "Residencial",
+      "valor": 5000,
+      "insumos": [
+        "Cimento",
+        "Areia",
+        "Pedra brita",
+        "Madeira",
+        "Concreto",
+        "Cal",
+        "Aço",
+        "Argamassa",
+        "Tijolo",
+        "Gesso",
+        "Ipermeabilizante",
+        "Telhas",
+        "Tintas",
+        "Pisos",
+        "Revestimento",
+        "Material hidráulico",
+        "Materias elétricos"
+      ],
+      "prazo": "01/01/24",
+      "endereco": "endereço da obra",
+      "status" : "Iniciado"
+  },
+  {   "id": "2", 
+      "cliente": "Gabriela do Amaral", 
+      "tipo de obra": "Residencial",
+      "valor": 7800,
+      "insumos": [
+        "Cimento",
+        "Areia",
+        "Pedra brita",
+        "Madeira",
+        "Concreto",
+        "Cal",
+        "Aço",
+        "Argamassa",
+        "Tijolo",
+        "Gesso",
+        "Ipermeabilizante",
+        "Telhas",
+        "Tintas",
+        "Pisos",
+        "Revestimento",
+        "Material hidráulico",
+        "Materias elétricos"
+      ],
+      "prazo": "01/02/24",
+      "endereco": "endereço da obra",
+      "status" : "Concluido"
+  },
+  {   "id": "3", 
+      "cliente": "ALPHA TEC", 
+      "tipo de obra": "Comercial",
+      "valor": 10000,
+      "insumos": [
+        "Cimento",
+        "Areia",
+        "Pedra brita",
+        "Madeira",
+        "Concreto",
+        "Cal",
+        "Aço",
+        "Argamassa",
+        "Tijolo",
+        "Gesso",
+        "Ipermeabilizante",
+        "Telhas",
+        "Tintas",
+        "Pisos",
+        "Revestimento",
+        "Material hidráulico",
+        "Materias elétricos"
+      ],
+      "prazo": "01/03/24",
+      "endereco": "endereço da obra",
+      "status" : "Iniciado"
+  },
+  {   "id": "4", 
+      "cliente": "Indústria de Cosméticos", 
+      "tipo de obra": "Industrial",
+      "valor": 35000,
+      "insumos": [
+        "Cimento",
+        "Areia",
+        "Pedra brita",
+        "Madeira",
+        "Concreto",
+        "Cal",
+        "Aço",
+        "Argamassa",
+        "Tijolo",
+        "Gesso",
+        "Ipermeabilizante",
+        "Telhas",
+        "Tintas",
+        "Pisos",
+        "Revestimento",
+        "Material hidráulico",
+        "Materias elétricos"
+      ],
+      "prazo": "01/04/24",
+      "endereco": "endereço da obra",
+      "status" : "Iniciado"
+  },
+  {   "id": "5", 
+      "cliente": "Linhas e Algodões LTDA", 
+      "tipo de obra": "Comercial",
+      "valor": 6400,
+      "insumos": [
+        "Cimento",
+        "Areia",
+        "Pedra brita",
+        "Madeira",
+        "Concreto",
+        "Cal",
+        "Aço",
+        "Argamassa",
+        "Tijolo",
+        "Gesso",
+        "Ipermeabilizante",
+        "Telhas",
+        "Tintas",
+        "Pisos",
+        "Revestimento",
+        "Material hidráulico",
+        "Materias elétricos"
+      ],
+      "prazo": "01/05/24",
+      "endereco": "endereço da obra",
+      "status" : "Concluido"
+  }
+  ],
+  "clientes": [
+    { "id": "1", 
+      "nome": "Marcelo Almeida de Souza",
+      "cpf-cnpj": "000.000.000-00",
+      "email": "email@email.com",
+      "fone":"99999-9999"
+    },
+    {
+      "id": "2", 
+      "nome": "Gabriela do Amaral",
+      "cpf-cnpj": "000.000.000-00",
+      "email": "email@email.com",
+      "fone":"99999-9999"
+    },
+    {
+      "id": "3", 
+      "nome": "ALPHA TEC",
+      "cpf-cnpj": "00.000.000/0001-11",
+      "email": "email@email.com",
+      "fone":"99999-9999"
+    },
+    {
+      "id": "4", 
+      "nome": "Indústria de Cosméticos",
+      "cpf-cnpj": "00.000.000/0001-11",
+      "email": "email@email.com",
+      "fone":"99999-9999"
+    },
+    {
+      "id": "5", 
+      "nome": "Linhas e Algodões LTDA",
+      "cpf-cnpj": "00.000.000/0001-11",
+      "email": "email@email.com",
+      "fone":"99999-9999"
+    }
+  ],
+  "fornecedores": [
+    {
+      "id": "1",
+      "nome": "Obrando Materiais de construção LTDA",
+      "cpf-cnpj": "00.000.000/0001-11",
+      "email": "email@email.com",
+      "fone":"99999-9999"
+    },
+    {
+      "id": "2",
+      "nome": "DB Materiais de construção LTDA",
+      "cpf-cnpj": "00.000.000/0001-11",
+      "email": "email@email.com",
+      "fone":"99999-9999"
+    },
+    {
+      "id": "3",
+      "nome": "Lâmina Materiais de construção LTDA",
+      "cpf-cnpj": "00.000.000/0001-11",
+      "email": "email@email.com",
+      "fone":"99999-9999"
+    },
+    {
+      "id": "4",
+      "nome": "Construto Materiais de construção LTDA",
+      "cpf-cnpj": "00.000.000/0001-11",
+      "email": "email@email.com",
+      "fone":"99999-9999"
+    },
+    {
+      "id": "5",
+      "nome": "Essencial Materiais de construção LTDA",
+      "cpf-cnpj": "00.000.000/0001-11",
+      "email": "email@email.com",
+      "fone":"99999-9999"
+    }
+  ]
+}
