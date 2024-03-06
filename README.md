@@ -1,4 +1,5 @@
-![image](https://www.figma.com/file/V4KBfNgh5Ig838bT7kfuKU/Untitled?type=design&node-id=53-10&mode=design&t=o2FasUxgzxNZkSmA-4)
+![image](![image](https://github.com/gabrieldickman/project-controller/assets/55303496/2d490b2f-dd0d-4eeb-a7f5-a8fef65731ba)
+)
 
 # PROJECT CONTROLLER
 Sistema de Controle de Projeto de Obras
