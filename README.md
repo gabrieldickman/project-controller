@@ -55,7 +55,7 @@ npm install --save @progress/kendo-react-grid @progress/kendo-data-query @progre
 ````
 npm install --save @progress/kendo-theme-default
 ````
-Após finalizar a instalação das dependências, navegue até a pasta src/api através do terminal para inciar o json-server e execute o comando.
+Após finalizar a instalação das dependências, navegue até a pasta src/api através do terminal para iniciar o json-server e execute o comando.
 ````
 npx json-server -p 5000 db.json
 ````
@@ -63,7 +63,7 @@ npx json-server -p 5000 db.json
 NOTA: Você pode usar a porta de sua preferência, contanto que não seja a mesma do React que por padrão é 3000
 ````
 
-Após iniar o json-server, execute o comando:
+Após iniciar o json-server, execute o comando:
 ````
 npm start
 ````
