@@ -4,6 +4,8 @@ import Fornecedores from './pages/Fornecedores.jsx'
 import ProjetosIniciados from './pages/ProjetosIniciados.jsx'
 import ProjetosFinalizados from './pages/ProjetosFinalizados.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import '@progress/kendo-theme-default/dist/all.css';
+
 
 const router = createBrowserRouter([
   {

@@ -4,6 +4,7 @@ import Card from "../components/Card"
 import { Grid, GridColumn as Column } from '@progress/kendo-react-grid'
 import { useState, useEffect } from 'react'
 
+
 import styles from '../modules/Dashboard.module.css'
 
 export default function Dashboard(){
@@ -35,11 +36,15 @@ export default function Dashboard(){
           </div>
           <Grid className={styles.grid} 
             data={projetos}
+            style={{
+              maxWidth:"90rem",
+              maxHeight: "400px"
+          }}
           >
-            <Column className={styles.column} field="tipo de obra" title="Projeto" width="auto" />
-            <Column className={styles.column} field="cliente" title="Cliente" width="auto" />
-            <Column className={styles.column} field="valor" title="Valor do Projeto" width="auto" />
-            <Column className={styles.column} field="status" title="Status" width="auto" />
+            <Column field="tipo de obra" title="Projeto"  />
+            <Column field="cliente" title="Cliente"  />
+            <Column field="valor" title="Valor do Projeto"  />
+            <Column field="status" title="Status"  />
           </Grid>
       </div>
     </div>

@@ -35,11 +35,15 @@ export default function Fornecedores(){
           </div>
           <Grid className={styles.grid} 
             data={fornecedores}
+            style={{
+              maxWidth:"90rem",
+              maxHeight: "400px"
+          }}
           >
-            <Column className={styles.column} field="nome" title="Nome" width="auto" />
-            <Column className={styles.column} field="cpf-cnpj" title="CPF / CNPJ" width="auto" />
-            <Column className={styles.column} field="email" title="E-mail" width="auto" />
-            <Column className={styles.column} field="fone" title="Telefone" width="auto" />
+            <Column field="nome" title="Nome" />
+            <Column field="cpf-cnpj" title="CPF / CNPJ" />
+            <Column field="email" title="E-mail" />
+            <Column field="fone" title="Telefone" />
           </Grid>
       </div>
     </div>

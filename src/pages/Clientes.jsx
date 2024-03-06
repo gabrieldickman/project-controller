@@ -5,6 +5,7 @@ import { Grid, GridColumn as Column } from '@progress/kendo-react-grid'
 import { useState, useEffect } from 'react'
 
 import styles from '../modules/Clientes.module.css'
+import { fontFamilyIcon } from "@progress/kendo-svg-icons"
 
 
 export default function Clientes(){
@@ -36,11 +37,15 @@ export default function Clientes(){
           </div>
           <Grid className={styles.grid} 
             data={clientes}
+            style={{
+              maxWidth:"90rem",
+              maxHeight: "400px"
+          }}
           >
-            <Column className={styles.column} field="nome" title="Cliente" width="auto" />
-            <Column className={styles.column} field="cpf-cnpj" title="CPF / CNPJ" width="auto" />
-            <Column className={styles.column} field="email" title="E-mail" width="auto" />
-            <Column className={styles.column} field="fone" title="Telefone" width="auto" />
+            <Column field="nome" title="Cliente" />
+            <Column field="cpf-cnpj" title="CPF / CNPJ" />
+            <Column field="email" title="E-mail" />
+            <Column field="fone" title="Telefone" />
           </Grid>
       </div>
     </div>
