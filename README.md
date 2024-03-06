@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+![image](https://www.figma.com/file/V4KBfNgh5Ig838bT7kfuKU/Untitled?type=design&node-id=53-10&mode=design&t=o2FasUxgzxNZkSmA-4)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# PROJECT CONTROLLER
+Sistema de Controle de Projeto de Obras
 
-## Available Scripts
+## 📌 Introdução
+O sistema em questão foi criado com a ideia de ser uma ferramenta para auxiliar no controle de projetos de obras de construção. <br>
+A ideia do sistema é ajudar a ter controle de projetos iniciados e concluídos, clientes e fornecedores cadastrados. <br>
 
-In the project directory, you can run:
+### ⚙️ Pré-requisitos para rodar o sistema
 
-### `npm start`
+- Necessário ter instalado o Node >= v20.5.0. <br>
+- Necessário ter o GIT instalado na máquina local. <br>
+- Necessário uma IDE ou um Editor de Código de sua preferência. <br>
+- Necessário a v10.5.0 do npm. <br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 💻 Tecnologias e ferramentas utilizadas:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Front-End:**
 
-### `npm test`
+- ReactJS
+- JavaScript
+- Modules CSS
+- Kendo UI
+- json-server
+- npm
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🛠️ Guia de Instalação
 
-### `npm run build`
+Para executar o projeto na sua máquina, são necessários alguns passos.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Antes de tudo, entre no diretório da sua máquina onde deseja clonar o projeto e execute o comando através do terminal:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+``
+git clone https://github.com/gabrieldickman/project-controller.git
+``
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Após feito isso, entre na pasta do projeto e execute a instalação das dependências através do terminal:
 
-### `npm run eject`
+``
+npm install react-router-dom
+``
+``
+npm install react-icons
+``
+``
+npm install json-server
+``
+``
+npm install --save @progress/kendo-react-grid @progress/kendo-data-query @progress/kendo-react-data-tools @progress/kendo-react-inputs @progress/kendo-react-intl @progress/kendo-react-dropdowns @progress/kendo-react-dateinputs @progress/kendo-drawing @progress/kendo-react-animation @progress/kendo-licensing @progress/kendo-react-buttons @progress/kendo-react-treeview @progress/kendo-react-popup @progress/kendo-svg-icons
+``
+``
+npm install --save @progress/kendo-theme-default
+``
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Após finalizar a instalação das dependências, navegue até a pasta src/api através do terminal para inciar o json-server e execute o comando.
+``
+npx json-server -p 5000 db.json
+``
+``
+NOTA: Você pode usar a porta de sua preferência, contanto que não seja a mesma do React que por padrão é 3000
+``
+Após iniar o json-server, execute o comando:
+``
+npm start
+``
+O projeto abrirá no navegador, mas caso não abra, ele estará acessivel em http://localhost:3000.
